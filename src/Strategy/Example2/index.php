@@ -13,7 +13,7 @@ $regularCustomer = new RegularCustomerDiscount();
 $premiumMember = new PremiumMemberDiscount();
 $guest = new GuestDiscount();
 
-echo '============== Strategy Design Pattern in Action ==================' . PHP_EOL;
+echo '==============|#### Strategy Design Pattern in Action ####|==================' . PHP_EOL;
 
 
 echo '==============|  Regular customer discount  |==================' . PHP_EOL;

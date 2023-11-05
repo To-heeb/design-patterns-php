@@ -1,9 +1,11 @@
 <?php
 
 
-namespace Toheeb\DesignPatternPhp\Decorator\Example1;
+namespace Toheeb\DesignPatternPhp\Decorator\Example1\Beverage;
 
-class Espresso extends Beverage
+use Toheeb\DesignPatternPhp\Decorator\Example1\Beverage;
+
+class HouseBlend extends Beverage
 {
 
     public function getDescription(): string

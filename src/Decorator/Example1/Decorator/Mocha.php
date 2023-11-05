@@ -1,6 +1,8 @@
 <?php
 
-namespace Toheeb\DesignPatternPhp\Decorator\Example1;
+namespace Toheeb\DesignPatternPhp\Decorator\Example1\Decorator;
+
+use Toheeb\DesignPatternPhp\Decorator\Example1\Beverage;
 
 
 /**

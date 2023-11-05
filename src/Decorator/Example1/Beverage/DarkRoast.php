@@ -1,7 +1,9 @@
 <?php
 
 
-namespace Toheeb\DesignPatternPhp\Decorator\Example1;
+namespace Toheeb\DesignPatternPhp\Decorator\Example1\Beverage;
+
+use Toheeb\DesignPatternPhp\Decorator\Example1\Beverage;
 
 class DarkRoast extends Beverage
 {

@@ -6,7 +6,7 @@ class ItalicDecorator extends TextDecorator
 {
     private $text;
 
-    public function __construct($text)
+    public function __construct(Text $text)
     {
         $this->text = $text;
     }
@@ -18,6 +18,6 @@ class ItalicDecorator extends TextDecorator
 
     public function getLength(): int
     {
-        return strlen($this->text);
+        return $this->text->getLength();
     }
 }

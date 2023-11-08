@@ -7,7 +7,7 @@ class FontColorDecorator extends TextDecorator
     private $text;
     private $color;
 
-    public function __construct($text, $color)
+    public function __construct(Text $text, string $color)
     {
         $this->text = $text;
         $this->color = $color;
@@ -20,6 +20,6 @@ class FontColorDecorator extends TextDecorator
 
     public function getLength(): int
     {
-        return strlen($this->text);
+        return $this->text->getLength();
     }
 }

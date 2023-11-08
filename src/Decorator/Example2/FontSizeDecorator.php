@@ -7,7 +7,7 @@ class FontSizeDecorator extends TextDecorator
     private $text;
     private $size;
 
-    public function __construct($text, $size)
+    public function __construct(Text $text, int $size)
     {
         $this->text = $text;
         $this->size = $size;
@@ -20,6 +20,6 @@ class FontSizeDecorator extends TextDecorator
 
     public function getLength(): int
     {
-        return strlen($this->text);
+        return $this->text->getLength();
     }
 }

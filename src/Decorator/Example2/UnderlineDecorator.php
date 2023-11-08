@@ -6,7 +6,7 @@ class UnderlineDecorator extends TextDecorator
 {
     private $text;
 
-    public function __construct($text)
+    public function __construct(Text $text)
     {
         $this->text = $text;
     }
@@ -18,6 +18,6 @@ class UnderlineDecorator extends TextDecorator
 
     public function getLength(): int
     {
-        return strlen($this->text);
+        return $this->text->getLength();
     }
 }
